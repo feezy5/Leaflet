@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:cnt="http://www.w3.org/2011/content#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <dcat:Dataset rdf:about="https://openiacs.eu/dataset/open-iacs_iacs_pg_nuts_03">
+    <dct:title>Nomenclature of Territorial Units for Statistics (NUTS) 2021 - Level 3</dct:title>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <dct:description>The NUTS are a hierarchical system divided into 3 levels. NUTS 1: major socio-economic regions, NUTS 2: basic regions for the application of regional policies, NUTS 3: small regions for specific diagnoses. Additionally a NUTS 0 level, usually co-incident with national boundaries are also available. The NUTS legislation is periodically amended; therefore multiple years are available for download. More information on the NUTS regulations can be found here.</dct:description>
+    <dct:identifier>open-iacs_iacs_pg_nuts_03</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UNKNOWN"/>
+    <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"/>
+    <rdfs:label>The spatial data of NUTS have been generated from Eurostat. As part of the Open IACS project (CEF: Action No: 2018-EU-IA-0086).</rdfs:label>
+    <dcat:keyword rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/environment"/>
+    <dcat:keyword rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/SpatialScope/european"/>
+    <dcat:keyword rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/TopicCategory/farming"/>
+    <dcat:keyword rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <dcat:keyword rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/IACSData/iacs"/>
+    <dcat:keyword rdf:resource="https://openiacs.eu/dataset/?tags=nuts"/>
+    <dct:accessRights rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"/>
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-25T00:00:00</dct:created>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-25T00:00:00</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-09-25T00:00:00</dct:modified>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/hb"/>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+    <dct:conformsTo rdf:resource="http://inspire.ec.europa.eu/documents/inspire-metadata-regulation"/>
+    <dct:conformsTo rdf:resource="http://inspire.ec.europa.eu/documents/commission-regulation-eu-no-13122014-10-december-2014-amending-regulation-eu-no-10892010-0"/>
+    <dct:conformsTo rdf:resource="http://semiceu.github.io/GeoDCAT-AP/releases/2.0.0"/>
+    <dct:conformsTo rdf:resource="http://inspire.ec.europa.eu/document-tags/metadata"/>
+    <dct:conformsTo>
+      <dct:Standard rdf:about="http://www.opengis.net/def/crs/EPSG/0/4326">
+        <dct:type rdf:resource="http://inspire.ec.europa.eu/glossary/SpatialReferenceSystem"/>
+      </dct:Standard>
+    </dct:conformsTo>
+    <adms:identifier>iacs:pg_nuts_03</adms:identifier>
+    <adms:identifier>ES.LC.IACS.PG_NUTS_03.2023</adms:identifier>
+    <dct:source>Administrative Units/Statistical Units data. https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts</dct:source>
+    <dcat:contactPoint>
+      <vcard:Organization rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0023645">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Individual"/>
+        <vcard:fn>Tragsatec</vcard:fn>
+        <vcard:fn>Tragsa</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:info@tragsa.es"/>
+        <vcard:hasURL rdf:resource="https://openiacs.eu/"/>
+        <vcard:role rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/pointOfContact"/>
+        <vcard:role rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/custodian"/>
+      </vcard:Organization>
+    </dcat:contactPoint>
+    <dct:creator>
+      <vcard:Organization rdf:about="https://openiacs.eu/dataset/open-iacs_iacs_pg_nuts_03/author">
+        <vcard:fn>Eurostat</vcard:fn>
+        <vcard:hasEmail rdf:resource="mailto:ESTAT-ESGAB@ec.europa.eu"/>
+        <vcard:hasURL rdf:resource="https://ec.europa.eu/eurostat"/>
+        <vcard:role rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/author"/>
+      </vcard:Organization>
+    </dct:creator>
+    <dct:provenance>
+      <dct:ProvenanceStatement rdf:about="https://openiacs.eu/dataset/open-iacs_iacs_pg_nuts_03/provenance">
+        <rdfs:label>The spatial data of NUTS have been generated from Eurostat. As part of the Open IACS project (CEF: Action No: 2018-EU-IA-0086).</rdfs:label>
+      </dct:ProvenanceStatement>
+    </dct:provenance>
+    <dct:publisher>
+      <foaf:Organization rdf:about="https://openiacs.eu/organization/open-iacs">
+        <foaf:name>Eurostat</foaf:name>
+        <vcard:role rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/distributor"/>
+        <foaf:mbox>ESTAT-ESGAB@ec.europa.eu</foaf:mbox>
+        <foaf:homepage rdf:resource="https://ec.europa.eu/eurostat"/>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/SupraNationalAuthority"/>
+        <dct:identifier rdf:resource="https://ec.europa.eu/eurostat"/>
+      </foaf:Organization>
+    </dct:publisher>
+    <dct:spatial>
+      <dct:Location rdf:nodeID="N2a6b6491432b4073bd782c02ac0ce204">
+        <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-63.7461 -21.9000, 56.4307 -21.9000, 56.4307 81.3451, -63.7461 81.3451, -63.7461 -21.9000))</dcat:bbox>
+      </dct:Location>
+    </dct:spatial>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://openiacs.eu/dataset/open-iacs_iacs_pg_nuts_03/resource/46251cf8-de53-4900-b343-2672abff73b6">
+        <dct:title>Web Map Service</dct:title>
+        <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+        <dct:description>Service providing map visualisation (WMS) according to the Open Geospatial Consortium specifications (http://www.ogc.org/standards/wms).</dct:description>
+        <dct:rights rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"/>
+        <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:conformsTo rdf:resource="http://www.opengeospatial.org/standards/wms"/>
+        <dcat:mediaType rdf:resource="http://www.opengis.net/def/serviceType/ogc/wms"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/WMS_SRVC"/>
+        <dcat:accessURL rdf:resource="http://openiacs.eu/geoserver/ows?service=wms&amp;request=GetCapabilities#iacs:pg_nuts_03"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://openiacs.eu/dataset/open-iacs_iacs_pg_nuts_03/resource/aca7497d-c612-46cd-830d-2cc324055fe8">
+        <dct:title>Web Feature Service</dct:title>
+        <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+        <dct:description>Service providing discrete phenomena download (WFS) according to the Open Geospatial Consortium specifications (http://www.ogc.org/standards/wfs).</dct:description>
+        <dct:rights rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"/>
+        <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:conformsTo rdf:resource="http://www.opengeospatial.org/standards/wfs"/>
+        <dcat:mediaType rdf:resource="http://www.opengis.net/def/serviceType/ogc/wfs"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/WFS_SRVC"/>
+        <dcat:accessURL rdf:resource="http://openiacs.eu/geoserver/ows?service=wfs&amp;request=GetCapabilities#iacs:pg_nuts_03"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://openiacs.eu/dataset/open-iacs_iacs_pg_nuts_03/resource/e884badd-c0fc-4107-98a8-8cf0ee880ed3">
+        <dct:title>GeoJSON</dct:title>
+        <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+        <dct:description>Format for the exchange of spatial data based on JSON notation (GeoJSON) according to the specification of the Internet Engineering Task Force (http://www.rfc-editor.org/rfc/rfc7946).</dct:description>
+        <dct:rights rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"/>
+        <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:conformsTo rdf:resource="http://www.rfc-editor.org/rfc/rfc7946"/>
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/geo+json"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GEOJSON"/>
+        <dcat:accessURL rdf:resource="http://openiacs.eu/geoserver/iacs/ows?service=wfs&amp;version=1.0.0&amp;request=GetFeature&amp;typeName=pg_nuts_03&amp;outputFormat=application/json&amp;maxFeatures=100"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://openiacs.eu/dataset/open-iacs_iacs_pg_nuts_03/resource/63528549-4fbe-4350-b157-641f0d94bc71">
+        <dct:title>GeoDCAT-AP 2.0 Metadata</dct:title>
+        <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+        <dct:description>Metadata according to the GeoDCAT-AP extension (http://semiceu.github.io/GeoDCAT-AP/releases/) of the Open Data Portal Metadata in Europe (DCAT-AP) metadata profile for spatial data sets and services. GeoDCAT-AP provides an RDF vocabulary and the corresponding RDF syntax binding for linking the metadata elements of the ISO 19115:2003 base profile and those defined in the framework of the INSPIRE Directive.</dct:description>
+        <dct:rights rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"/>
+        <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:conformsTo rdf:resource="http://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/"/>
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF"/>
+        <dcat:accessURL rdf:resource="https://openiacs.eu/dataset/open-iacs_iacs_pg_nuts_03.rdf"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://openiacs.eu/dataset/open-iacs_iacs_pg_nuts_03/resource/84bf4a1b-e5e3-4596-9705-d8973fa363d5">
+        <dct:title>INSPIRE ISO 19139 Metadata</dct:title>
+        <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+        <dct:description>Metadata for INSPIRE datasets and services in ISO/TS 19139 (http://inspire.ec.europa.eu/id/document/tg/metadata-iso19139).</dct:description>
+        <dct:rights rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"/>
+        <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:conformsTo rdf:resource="http://inspire.ec.europa.eu/documents/inspire-metadata-regulation"/>
+        <dct:conformsTo rdf:resource="http://inspire.ec.europa.eu/documents/commission-regulation-eu-no-13122014-10-december-2014-amending-regulation-eu-no-10892010-0"/>
+        <dct:conformsTo rdf:resource="http://www.isotc211.org/2005/gmd/"/>
+        <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/xml"/>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+        <dcat:accessURL rdf:resource="https://openiacs.eu/csw/?service=CSW&amp;version=2.0.2&amp;request=GetRecordById&amp;id=open-iacs_iacs_pg_nuts_03&amp;elementsetname=full&amp;outputSchema=http://www.isotc211.org/2005/gmd"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+</rdf:RDF>
